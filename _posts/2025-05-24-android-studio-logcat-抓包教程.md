@@ -1,6 +1,14 @@
-# Android Studio Logcat 抓包教程
-
-> 本文介绍如何使用 Android Studio 的 Logcat 工具进行 HTTP 请求抓包分析，适用于 Android 开发调试场景。
+---
+title: Android Studio Logcat 抓包教程
+description: 本文介绍如何使用 Android Studio 的 Logcat 工具进行 HTTP 请求抓包分析，适用于 Android 开发调试场景。
+author: 我不是作者哇
+date: 2025-05-24 23:33:00 +0800
+categories: [Blogging, Tools]
+tags: [course]
+pin: true
+math: true
+mermaid: true
+---
 
 ## 环境要求
 
@@ -8,20 +16,20 @@
 - 项目已集成网络请求库（如 Retrofit、OkHttp、Volley 等）
 - 设备处于调试模式（真机或模拟器）
 
-![环境要求示意图](/assets/img/20250524/image20250524164013318.png)
+![环境要求示意图](/assets/img/2025-05-24/image-20250524164013318.png)
 
 ## 打开 Logcat
 
 1. 在 Android Studio 左侧工具栏找到 **Logcat** 标签
    - 如果未显示，可通过 `顶部视图 > 工具窗口 > Logcat` 打开
 
-![Logcat位置1](/assets/img/20250524/image20250524164516027.png)
+![Logcat位置1](/assets/img/2025-05-24/image-20250524164516027.png)
 
-![Logcat位置2](/assets/img/20250524/image20250524164655551.png)
+![Logcat位置2](/assets/img/2025-05-24/image-20250524164655551.png)
 
 2. 在设备选择下拉框中选择目标设备（真机或模拟器）
 
-![设备选择](/assets/img/20250524/image20250524165252982.png)
+![设备选择](/assets/img/2025-05-24/image-20250524165252982.png)
 
 ## Logcat 过滤功能详解
 
@@ -79,15 +87,15 @@ Logcat 提供了强大的过滤功能，支持多种过滤条件：
 
 1. 按包名过滤：
 
-![包名过滤示例](/assets/img/20250524/image20250524173303414.png)
+![包名过滤示例](/assets/img/2025-05-24/image-20250524173303414.png)
 
 2. 包名+标签组合：
 
-![包名标签组合示例](/assets/img/20250524/image20250524173904217.png)
+![包名标签组合示例](/assets/img/2025-05-24/image-20250524173904217.png)
 
 根据 Thread Id 可以很容易看到请求和响应信息
 
-![Thread Id示例](/assets/img/20250524/image20250524172232869.png)
+![Thread Id示例](/assets/img/2025-05-24/image-20250524172232869.png)
 
 ## 实用技巧
 
@@ -116,7 +124,7 @@ Logcat 界面还提供了以下实用工具：
 - 屏幕录制：录制设备操作过程
 - ADB 调试：直接执行 ADB 命令
 
-![其他功能](/assets/img/20250524/image20250524174620348.png)
+![其他功能](/assets/img/2025-05-24/image-20250524174620348.png)
 
 ## 注意事项
 

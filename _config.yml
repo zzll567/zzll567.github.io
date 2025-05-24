@@ -12,12 +12,12 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag 插件设置（SEO 优化）› https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # 网站主标题
+title: 🍍 # 网站主标题
 
-tagline: A text-focused Jekyll theme # 网站副标题
+tagline: AAA水果批发 # 网站副标题
 
 description: >- # 网站描述，用于 SEO 和 Atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A Blog Theme for Text-Focused People.
 
 # 你的网站地址（如 https://username.github.io），不要以斜杠结尾
 url: ""
@@ -29,8 +29,8 @@ twitter:
   username: twitter_username # change to your Twitter username
 
 social:
-  name: your_full_name # 修改为你的真实姓名，将显示在文章作者和网站页脚中
-  email: example@domain.com # 修改为你的邮箱
+  name: 🍍 # 修改为你的真实姓名，将显示在文章作者和网站页脚中
+  email: zzll567.wei@outlook.com # 修改为你的邮箱
   links:
     - https://twitter.com/username  # 修改为你的 Twitter 链接
     - https://github.com/username   # 修改为你的 GitHub 链接
@@ -69,7 +69,7 @@ analytics:
 
 # 页面浏览计数（目前只支持 GoatCounter）
 pageviews:
-  provider:  # 填写 goatcounter 可启用
+  provider: "goatcounter"  # 填写 goatcounter 可启用
 
 
 # 默认颜色主题（留空代表跟随系统，用户可切换）
@@ -78,10 +78,11 @@ theme_mode:
 
 
 # CDN 设置（为媒体资源加速）
-cdn: "https://chirpy-img.netlify.app"
+# cdn: "https://chirpy-img.netlify.app"
+cdn:
 
 # 头像（支持本地路径或跨域资源）
-avatar: "/commons/avatar.jpg"
+avatar: "/assets/img/touxiang/image.png"
 
 # 用于 SEO 的社交预览图（默认图）
 social_preview_image:
