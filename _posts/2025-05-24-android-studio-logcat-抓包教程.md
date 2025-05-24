@@ -9,9 +9,9 @@ math: true
 mermaid: true
 ---
 
-## 环境要求
+## 环境
 
-- Android Studio 版本：2024.3.1 Patch 1 或更高版本
+- 使用的Android Studio版本：2024.3.1 Patch 1
 - 项目已集成网络请求库（如 Retrofit、OkHttp、Volley 等）
 - 设备处于调试模式（真机或模拟器）
 
