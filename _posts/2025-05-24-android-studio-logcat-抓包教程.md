@@ -1,7 +1,6 @@
 ---
 title: Android Studio Logcat 抓包教程
 description: 本文介绍如何使用 Android Studio 的 Logcat 工具进行 HTTP 请求抓包分析，适用于 Android 开发调试场景。
-author: 我不是作者哇
 date: 2025-05-24 23:33:00 +0800
 categories: [Blogging, Tools]
 tags: [course]
