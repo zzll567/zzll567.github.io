@@ -1,7 +1,7 @@
 ---
 title: Oracle数据库读取US7ASCII编码转换问题
 description: Oracle数据库读取US7ASCII编码转换问题
-date: 2025-05-20 18:33:00 +0800
+date: 2026-05-20 18:33:00 +0800
 categories: [Blogging]
 tags: [course]
 pin: true
